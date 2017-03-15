@@ -3,57 +3,73 @@
   <head lang="en">
     <meta charset="utf-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css" >
   </head>
   <body>
-    <header>
-      <h1></h1>
-      <nav>
-        <ul>
-          <li><a href="">home</a></li>
-          <li><a href=""></a></li>
-          <li><a href="../../class01/semantic_tags/index.html">Favorite Pizza Place</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
+    <div class="wrapper">
+      <header>
+        <h1>Adriana's Portfolio</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="https://adrianaryan.github.io/semantic_tags/"
+                 class="dropbtn">Favorite Pizza Place</a>
+                 <div class="dropdown-windcitypie">
+                   <a href="https://windycitypie.com/">Wind City Pie</a>
+                   <a href="http://windycitypie.com/menu/">Menu</a>
+                   <a href="http://windycitypie.com/order/">Order</a>
+                 </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <section class="artworks">
       <article>
         <figure>
-          <img src"" alt="">
-          <figcation> </figcaption>
+          <img src="images/elephant-one.jpg" alt="Elephant Printmaking Side" width="280" />
+          <figcaption>Elephant Printmaking Side</figcaption>
         </figure>
-        <hgroup>
-          <h2></h2>
-          <h3></h3>
-        </hgroup>
-        <p></p>
-    </article>
-    <article>
+        <div class="headings">
+          <h2>1.Elephant Artwork </h2>
+          <h3>Art course in Seattle </h3>
+        </div>
+          <p>Introduction to contemporary printing
+             methods such as monotype, monoprint, stencil, and photocopy.</p>
+     </article>
+     <article>
       <figure>
-        <img src"" alt="">
-        <figcation> </figcaption>
+        <img src="images/elephant-two.jpg" alt="Elephant Printmaking Face"  width="280"/>
+        <figcaption>Elephant Printmkaing Face</figcaption>
       </figure>
-      <hgroup>
-        <h2></h2>
-        <h3></h3>
-      </hgroup>
-      <p></p>
+      <div class="headings">
+        <h2>2.Elephant Artwork </h2>
+        <h3>Concepts in Printmaking</h3>
+      </div>
+        <p>Survey of historical and current approaches to the art of printmaking.</p>
     </article>
    </section>
-   <aside>
-     <section>
-       <h2>----</h2>
-       <a href="">--</a>
-       <a href="">--</a>
-       <a href="">--</a>
-     </section>
-     <section>
-      <h2>Contact</h2>
-      <p>Adriana's Portfolio<br>
-      <a href="www.adriryan.com">www.adriryan.com</a><br>
-      253.123.4567<br>
+
+     <aside>
+       <section class="festival-list">
+         <h2>Seattle Art Festival</h2>
+         <a href="http://bumbershoot.com/">Bumbershoot</a>
+         <a href="http://www.siff.net/">International Film Festival</a>
+         <a href="http://seattleartfair.com/">Seattle Art Fair</a>
+       </section>
+       <section class="contact-details">
+        <h2>Contact</h2>
+        <p>
+        adrianaminryan@gmail.com<br />
+        253.123.4567</p>
+      </section>
     </aside>
-    <footer>
-      &copy; 2017 Adriana Portfolio
-    </footer>
+
+      <footer>
+        &copy; 2017 Adriana Portfolio
+      </footer>
+    </div>
   </body>
 </html>
