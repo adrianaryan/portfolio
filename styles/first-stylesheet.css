@@ -1,0 +1,146 @@
+/* display it in block size */
+header, section, footer, aside, nav,
+article, figure, figcaption {display: block;}
+/*Set the body*/
+body {
+			color: #666666;
+			background-color: #f9f8f6;
+			background-position: center;
+			font-family: Georgia, Times, serif;
+			line-height: 1.4em;
+			margin: 0px;}
+/*Set the size of the block*/
+.wrapper {
+				  width: 940px;
+				  margin: 20px auto 20px auto;
+				  border: 2px solid #ffffff;
+				  background-color: #ffffff;}
+header {
+				height: 160px;
+				background-color:#de6581;}
+h1 {
+    color: white;
+    text-align: center;
+		width: 940px;
+		height: 10px;
+		margin: 0px;
+    padding: 60px 0;
+    }
+
+nav, footer {
+		clear: both;
+		color: #ffffff;
+		background-color: #aeaca8;
+		height: 30px;}
+/* place the menu*/
+nav ul {
+		margin: 0px;
+		padding: 5px 0px 5px 30px;}
+/* put in inline */
+nav li {
+		display: inline;
+		margin-right: 30px;}
+/* Menu color and changes the color */
+nav li a, .dropbtn {
+		color: #ffffff;}
+nav li a:hover, nav li a.current, .dropdown:hover .dropbtn  {
+  	color: #000000;}
+li.dropdown {
+    display: inline-block;}
+.dropdown-windcitypie {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+.dropdown-windcitypie a {
+    color: #de6581;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+.dropdown-windcitypie a:hover {
+  color: #985d6a;
+  background-color: #efefef;}
+.dropdown:hover .dropdown-windcitypie {
+    display: block;
+    }
+/*Dropdown button*/
+
+
+
+
+/*applies main section size, */
+section.artworks {
+		float: left;
+		width: 659px;
+		border-right: 2px solid #eeeeee;
+    padding: 0px 0px 0px 10px;}
+
+section.main-about {
+    float: left;
+    width: 659px;
+    border-right: 2px solid #eeeeee;
+    padding: 50px 0px 60px 10px
+}
+
+/*applies article sizes*/
+article {
+		clear: both;
+		overflow: auto;
+		width: 100%;}
+/*changes heading top*/
+.headings {
+		margin-top: 20px;}
+/*image section size*/
+figure {
+    float: left;
+		width: 290px;
+		height: 220px;
+		padding: 5px;
+		margin: 20px;
+		border: 1px solid #eeeeee;}
+/*image caption places*/
+figcaption {
+		font-size: 0.8rem;
+		text-align: right;}
+
+/*places the aside*/
+aside {
+		width: 230px;
+		float: left;
+		padding: 0px 0px 0px 20px;}
+
+aside section a {
+		display: block;
+		padding: 10px;
+		border-bottom: 1px solid #eeeeee;}
+
+aside section a:hover {
+		color: #985d6a;
+		background-color: #efefef;}
+a {
+		color: #de6581;
+		text-decoration: none;}
+h1, h2, h3 {
+		font-weight: normal;}
+
+h2 {
+		margin: 10px 0px 5px 0px;
+		padding: 0px;}
+
+h3 {
+		margin: 0px 0px 5px 0px;
+		color: #de6581;}
+
+aside h2 {
+		padding: 30px 0px 10px 0px;
+		color: #de6581;}
+
+footer {
+		font-size: .8rem;
+		padding: 7px 0px 0px 30px;}
