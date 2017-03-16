@@ -43,7 +43,7 @@ nav li {
 /* Menu color and changes the color */
 nav li a, .dropbtn {
 		color: #ffffff;}
-nav li a:hover, nav li a.current, .dropdown:hover .dropbtn  {
+nav li a:hover, nav li a.current, .dropdown:hover  {
   	color: #000000;}
 li.dropdown {
     display: inline-block;}
@@ -75,7 +75,7 @@ li.dropdown {
 
 
 /*applies main section size, */
-section.artworks {
+section.main-images {
 		float: left;
 		width: 659px;
 		border-right: 2px solid #eeeeee;
@@ -142,5 +142,6 @@ aside h2 {
 		color: #de6581;}
 
 footer {
-		font-size: .8rem;
-		padding: 7px 0px 0px 30px;}
+		font-size: 80%;
+		text-align: right;
+		padding: 1px 20px 5px 0px;}
