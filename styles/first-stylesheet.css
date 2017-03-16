@@ -1,23 +1,24 @@
 /* display it in block size */
 header, section, footer, aside, nav,
-article, figure, figcaption {display: block;}
+article, figure, figcaption {
+	  display: block;}
 /*Set the body*/
 body {
-			color: #666666;
-			background-color: #f9f8f6;
-			background-position: center;
-			font-family: Georgia, Times, serif;
-			line-height: 1.4em;
-			margin: 0px;}
+		color: #666666;
+		background-color: #f9f8f6;
+		background-position: center;
+		font-family: Georgia, Times, serif;
+		line-height: 1.4em;
+		margin: 0px;}
 /*Set the size of the block*/
 .wrapper {
-				  width: 940px;
-				  margin: 20px auto 20px auto;
-				  border: 2px solid #ffffff;
-				  background-color: #ffffff;}
+		width: 940px;
+		margin: 20px auto 20px auto;
+		border: 2px solid #ffffff;
+		background-color: #ffffff;}
 header {
-				height: 160px;
-				background-color:#de6581;}
+		height: 160px;
+		background-color:#de6581;}
 h1 {
     color: white;
     text-align: center;
@@ -40,7 +41,7 @@ nav ul {
 nav li {
 		display: inline;
 		margin-right: 30px;}
-/* Menu color and changes the color */
+/* Menu color, Dropdown bttns and changes the color */
 nav li a, .dropbtn {
 		color: #ffffff;}
 nav li a:hover, nav li a.current, .dropdown:hover  {
@@ -69,7 +70,7 @@ li.dropdown {
 .dropdown:hover .dropdown-windcitypie {
     display: block;
     }
-/*Dropdown button*/
+
 
 
 
@@ -126,6 +127,8 @@ aside section a:hover {
 a {
 		color: #de6581;
 		text-decoration: none;}
+
+/*modifies headings*/
 h1, h2, h3 {
 		font-weight: normal;}
 
@@ -141,6 +144,7 @@ aside h2 {
 		padding: 30px 0px 10px 0px;
 		color: #de6581;}
 
+/*can't figure out how to put the text in center*/
 footer {
 		font-size: 80%;
 		text-align: right;
