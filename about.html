@@ -3,7 +3,10 @@
   <head lang="en">
     <meta charset="utf-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
   </head>
   <body>
     <div class="wrapper">
@@ -11,16 +14,23 @@
         <h1>About Adriana</h1>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class= "current">About</a></li>
+            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="about.html" id= "current">About</a></li>
             <li class="dropdown">
-                <a href="class01-assignment.html"
-                 class="dropbtn">Favorite Pizza Place</a>
-                 <div class="dropdown-windcitypie">
-                   <a href="https://windycitypie.com/">Wind City Pie</a>
-                   <a href="http://windycitypie.com/menu/">Menu</a>
-                   <a href="http://windycitypie.com/order/">Order</a>
-                 </div>
+               <a href="class01-assignment.html"
+                  class="dropbtn">Favorite Pizza Place</a>
+                  <div class="dropdown-list">
+                    <a href="https://windycitypie.com/">Wind City Pie</a>
+                    <a href="http://windycitypie.com/menu/">Menu</a>
+                    <a href="http://windycitypie.com/order/">Order</a>
+                  </div>
+           <li class="dropdown">
+              <a href="kitties-to-go/index.html"
+                 class="dropbtn">Kitties To Go</a>
+                  <div class="dropdown-list">
+                    <a href="kitties-to-go/rates.html">Rates</a>
+                    <a href="kitties-to-go/liability-release.html">Liability Release</a>
+                  </div>
             </li>
           </ul>
         </nav>
@@ -43,9 +53,10 @@
          <a href="http://bumbershoot.com/">Bumbershoot</a>
          <a href="http://www.siff.net/">International Film Festival</a>
          <a href="http://seattleartfair.com/">Seattle Art Fair</a>
+         <a href="http://www.seattleartmuseum.org/">Seattle Art Museum</a>
        </section>
        <section class="contact-details">
-        <h2>Contact</h2>
+        <h2><i class="fa fa-phone" aria-hidden="true"></i> Contact</h2>
         <p>
         adrianaminryan@gmail.com<br />
         253.123.4567</p>

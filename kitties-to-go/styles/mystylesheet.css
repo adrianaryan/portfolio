@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: #000000;
+	background-color: #f9f8f6;
+	background-position: center;
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.4em;
+	margin: 0;
+  }
+
+
+.wrapper {
+  width: 37rem;
+  margin: 1.25rem auto;
+  background-color: #ffffff;
+  }
+
+.content {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-flow: row;
+}
+
+
+nav, nav a {
+  clear: both;
+  color: #4b054d;
+  background-color: #a6a6a6;
+  height: 1.875rem;}
+
+nav ul {
+  margin: 0;
+  padding: .3125rem 0 .3125rem 2.5rem;}
+
+nav li {
+  display: inline;
+  margin-right: 1.875rem;}
+
+h1 {
+  margin: .7rem;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h3 {
+  margin: .7rem;
+  color: #8f8f8f;
+  font-weight: 100;
+}
+header {
+  background-color: black;
+}
+
+.material-icons {
+  display: inline;
+  vertical-align: bottom;
+}
+
+.header-titles {
+  padding: 4.4375rem 0 0.25rem 1.25rem;
+}
+
+.open-meow {
+  float: right;
+  padding: .4375rem 1.25rem 0 0;
+}
+
+.content > .main-content {
+  margin: 0;
+  padding: 1rem .9rem;
+  flex: 3 1 7rem;
+  order: 1;
+}
+
+/*Testimoials contents*/
+.quoatations {
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+}
+
+/*spaces between paragraphs*/
+p {
+  margin: 0;
+}
+
+
+.content > aside {
+  margin: 1rem .4rem 2rem;
+  padding: 0;
+  flex: 2 6 3rem;
+  order: 2;
+  border: 1.5px solid black;
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+  padding: 0 1.2rem;
+}
+
+figcaption{
+  font-size: 1.1rem;
+}
+
+article h2{
+  margin: 1rem 0 .5rem 0;
+}
+
+article p{
+  margin-bottom: 2rem;
+}
+
+aside h2{
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 1rem 0 .5rem;
+}
+aside p{
+  font-size: .9rem;
+  margin: 0;
+  padding: 0 0 0 .5rem;
+}
+
+.book-now {
+  float: right;
+  padding: 0 .5rem 1rem 0;
+}
+
+footer {
+  font-size: 1rem;
+  color: #e0e0e0;
+  background-color: black;
+  height: 10rem;
+}
+
+/*changes the href colors to red*/
+a {
+ color: #e40315;
+}
+/* footer contact part text positions */
+.contact{
+  text-align: left;
+  padding: 1.5rem 0 1rem 1.25rem;
+}
+.copyright{
+  text-align: center;
+}
