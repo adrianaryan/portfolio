@@ -18,8 +18,17 @@ body {
 		background-color: #ffffff;}
 header {
 		height: 160px;
-		background-color:#de6581;}
+		background-color:#de6581;
+    animation: header-color linear 5s infinite alternate;
+	}
+
+	@keyframes header-color {
+		from {background-color: #de6581;}
+    to {background-color: #ef90a6;}
+  }
+
 h1 {
+	  font-family: 'Lobster Two', cursive;
     color: white;
     text-align: center;
 		width: 940px;
@@ -44,11 +53,12 @@ nav li {
 /* Menu color, Dropdown bttns and changes the color */
 nav li a, .dropbtn {
 		color: #ffffff;}
-nav li a:hover, nav li a.current, .dropdown:hover  {
+nav li a:hover, nav li #current, .dropdown:hover  {
   	color: #000000;}
 li.dropdown {
-    display: inline-block;}
-.dropdown-windcitypie {
+    display: inline-block;
+	  }
+.dropdown-list {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -56,7 +66,7 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     }
-.dropdown-windcitypie a {
+.dropdown-list a {
     color: #de6581;
     padding: 12px 16px;
     text-decoration: none;
@@ -64,10 +74,10 @@ li.dropdown {
     text-align: left;
     }
 
-.dropdown-windcitypie a:hover {
+.dropdown-list a:hover {
   color: #985d6a;
   background-color: #efefef;}
-.dropdown:hover .dropdown-windcitypie {
+.dropdown:hover .dropdown-list {
     display: block;
     }
 
@@ -124,6 +134,11 @@ aside section a {
 aside section a:hover {
 		color: #985d6a;
 		background-color: #efefef;}
+
+aside section a:nth-of-type(even) {
+    color: #6f514f ;
+}
+
 a {
 		color: #de6581;
 		text-decoration: none;}
